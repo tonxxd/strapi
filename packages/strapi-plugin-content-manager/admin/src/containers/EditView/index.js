@@ -178,6 +178,7 @@ const EditView = ({
 
                 return (
                   <FormWrapper key={blockIndex}>
+                    <p>Ciaoooooooo</p>
                     {block.map((fieldsBlock, fieldsBlockIndex) => {
                       return (
                         <div className="row" key={fieldsBlockIndex}>
